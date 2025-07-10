@@ -22,7 +22,7 @@ class GPTClient:
             messages.append({"role": "user", "content": user_command})
         return messages
 
-    def chat(self, history: list, system_command: str, user_command: str)->str:
+    def chat(self, history: list, system_command: str, user_command: str):
         # 非流式调用接口
         messages = self._build_messages(history, system_command, user_command)
         completion = self.client.chat.completions.create(
@@ -32,7 +32,7 @@ class GPTClient:
         )
         return completion.choices[0].message.content
 
-    def chat_stream(self, history: list, system_command: str, user_command: str)->str:
+    def chat_stream(self, history: list, system_command: str, user_command: str):
         # 流式调用接口
         messages = self._build_messages(history, system_command, user_command)
         stream = self.client.chat.completions.create(
@@ -58,8 +58,8 @@ if __name__ == '__main__':
         model="deepseek-v3",
         temperature=1
     )
-    # 使用过程中，可以修改模型的参数 
-    gpt_client.module = "gpt-4o"
+    # 使用过程中，可以修改模型的参数
+    gpt_client.model = "gpt-4o"
     gpt_client.temperature = 0.8
 
     # 非流式调用，单条指令
