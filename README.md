@@ -143,10 +143,10 @@ for content in ans:
 <img width="2548" height="1064" alt="image" src="https://github.com/user-attachments/assets/aadbca75-e267-4280-a307-1800f28815e5" />
 
 <span id="lable"></span>
-## 4、免费API申请地址(每月/每天免费刷新额度)
+## 4、免费API申请地址(每月/每天免费刷新额度，截止2025.07.13统计)
 1. 智谱AI-GLM 官网：https://www.bigmodel.cn/usercenter/proj-mgmt/apikeys
    - OpenAI API兼容接口：https://open.bigmodel.cn/api/paas/v4
-   - 可用模型类型（截止2025.07.13统计，最新免费模型查看[智谱AI-GLM免费模型](https://www.bigmodel.cn/dev/activities/free/glm-z1-flash)
+   - 可用模型类型（最新免费模型查看[智谱AI-GLM免费模型](https://www.bigmodel.cn/dev/activities/free/glm-z1-flash)
    - glm-4.1v-thinking-flash(视频识别)
    - glm-4-flash-250414
    - glm-4-flash
@@ -156,7 +156,7 @@ for content in ans:
    - cogvideox-flash(视频生成)
 2. 🔮Google Gemini 官网：https://aistudio.google.com/apikey
    - OpenAI API兼容接口：https://generativelanguage.googleapis.com/v1beta/openai/
-   - 可用模型类型（截止2025.07.13统计，最新免费模型查看[Google Gemini免费模型](https://ai.google.dev/gemini-api/docs/pricing)
+   - 可用模型类型（最新免费模型查看[Google Gemini免费模型](https://ai.google.dev/gemini-api/docs/pricing)
    - gemini-2.5-pro(图像识别、视频识别)
    - gemini-2.5-flash-lite-preview-06-17(图像识别、视频识别)
    - gemini-2.5-flash(图像识别、视频识别)
@@ -164,9 +164,55 @@ for content in ans:
    - gemini-2.0-flash(图像识别、视频识别)
    - gemini-1.5-flash-8b(图像识别、视频识别)
    - gemini-1.5-flash(图像识别、视频识别)
+3. OpenRouter 官网：https://openrouter.ai/settings/keys
+   - OpenAI API兼容接口：https://openrouter.ai/api/v1
+   - 可用模型类型（最新免费模型查看[OpenRouter免费模型](https://openrouter.ai/models?q=free&fmt=table)
+   - deepseek/deepseek-chat:free
+    - deepseek/deepseek-r1:free
+    - deepseek/deepseek-r1-distill-llama-70b:free
+    - deepseek/deepseek-r1-distill-qwen-14b:free
+    - deepseek/deepseek-v3-base:free
+    - google/gemini-2.0-flash-exp:free
+    - google/gemma-2-9b-it:free
+    - google/gemma-3-12b-it:free
+    - google/gemma-3-27b-it:free
+    - google/gemma-3-4b-it:free
+    - meta-llama/llama-3.1-405b-instruct:free
+    - meta-llama/llama-3.2-11b-vision-instruct:free
+    - meta-llama/llama-3.2-3b-instruct:free
+    - meta-llama/llama-3.3-70b-instruct:free
+    - meta-llama/llama-4-maverick:free
+    - meta-llama/llama-4-scout:free
+    - microsoft/mai-ds-r1:free
+    - mistralai/devstral-small-2505:free
+    - mistralai/mistral-7b-instruct:free
+    - mistralai/mistral-nemo:free
+    - mistralai/mistral-small-24b-instruct-2501:free
+    - mistralai/mistral-small-3.1-24b-instruct:free
+    - mistralai/mistral-small-3.2-24b-instruct:free
+    - moonshotai/kimi-dev-72b:free
+    - moonshotai/kimi-vl-a3b-thinking:free
+    - nousresearch/deephermes-3-llama-3-8b-preview:free
+    - nvidia/llama-3.1-nemotron-ultra-253b-v1:free
+    - nvidia/llama-3.3-nemotron-super-49b-v1:free
+    - openrouter/cypher-alpha:free
+    - qwen/qwen-2.5-72b-instruct:free
+    - qwen/qwen-2.5-coder-32b-instruct:free
+    - qwen/qwen2.5-vl-32b-instruct:free
+    - qwen/qwen2.5-vl-72b-instruct:free
+    - qwen/qwen3-14b:free
+    - qwen/qwen3-235b-a22b:free
+    - qwen/qwen3-30b-a3b:free
+    - qwen/qwen3-32b:free
+    - qwen/qwen3-4b:free
+    - qwen/qwen3-8b:free
+    - qwen/qwq-32b:free
+    - tencent/hunyuan-a13b-instruct:free
+    - thudm/glm-4-32b:free
+    - thudm/glm-z1-32b:free
 3. GPT_API_free 项目：https://github.com/chatanywhere/GPT_API_free
    - OpenAI API兼容接口：https://api.chatanywhere.tech/v1
-   - 可用模型类型，输入Token小于4096（截止2025.07.13统计，最新免费模型运行 Models_ChatAnyWhere.py 查看）
+   - 可用模型类型，输入Token小于4096（最新免费模型运行 Models_ChatAnyWhere.py 查看）
    - deepseek-chat
    - deepseek-r1
    - deepseek-r1-250528
@@ -192,7 +238,7 @@ for content in ans:
    - text-embedding-ada-002
 4. Free-ChatGPT-API 项目: https://github.com/popjane/free_chatgpt_api
    - OpenAI API兼容接口：https://free.v36.cm/v1/
-   - 可用模型类型（截止2025.07.13统计，最新免费模型查看[Free-ChatGPT-API免费模型](https://github.com/popjane/free_chatgpt_api?tab=readme-ov-file#%E9%A1%B9%E7%9B%AE%E4%BB%8B%E7%BB%8D)
+   - 可用模型类型（最新免费模型查看[Free-ChatGPT-API免费模型](https://github.com/popjane/free_chatgpt_api?tab=readme-ov-file#%E9%A1%B9%E7%9B%AE%E4%BB%8B%E7%BB%8D)
    - gpt-4o-mini
    - gpt-3.5-turbo-0125
    - gpt-3.5-turbo-1106
