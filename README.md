@@ -1,5 +1,12 @@
 # Template_OpenAI_API
 🫠一个类封装：通用的OpenAI兼容API接口, 支持非流式和流式调用, 支持单条指令、多轮对话, 支持文字、图像输入等自定义参数<br>
+```python
+# 三行代码直接获取API结果
+sys_command = "回答内容请保持在20个字以内。"
+use_command = "你是什么大模型?回答请包括模型名、你的开发者、该模型具体版本号、该模型最后的训练时间。"
+ans = gpt_client.chat(use_command, sys_command, history_True)
+```
+
 🔑密钥位置：用txt文本保存，或者环境变量（当然可以选择你更喜欢/安全的方式）<br>
 🔥免费API统计：<a href="#lable">免费API申请地址(每月/每天免费刷新额度)</a>
 
