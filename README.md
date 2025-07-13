@@ -1,7 +1,7 @@
 # Template_OpenAI_API
 🫠一个类封装：通用的OpenAI兼容API接口, 支持非流式和流式调用, 支持单条指令、多轮对话, 支持文字、图像输入等自定义参数<br>
 🔑密钥位置：用txt文本保存，或者环境变量（当然可以选择你更喜欢/安全的方式）<br>
-🔥免费API统计：[免费API申请地址(每月/每天免费刷新额度)](#4、免费api申请地址(每月/每天免费刷新额度)))
+🔥免费API统计：<a href="#lable">免费API申请地址(每月/每天免费刷新额度)</a>
 
 ## 1、文件介绍
 - Template_OpenAI_API.py：定义了一个 AIClient 类，支持非流式、流式，单条命令、多轮对话等调用方式。
@@ -142,6 +142,7 @@ for content in ans:
 
 <img width="2548" height="1064" alt="image" src="https://github.com/user-attachments/assets/aadbca75-e267-4280-a307-1800f28815e5" />
 
+<span id="lable"></span>
 ## 4、免费API申请地址(每月/每天免费刷新额度)
 1. 智谱AI-GLM 官网：https://www.bigmodel.cn/usercenter/proj-mgmt/apikeys
    - OpenAI API兼容接口：https://open.bigmodel.cn/api/paas/v4
