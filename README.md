@@ -1,4 +1,22 @@
-# Template_OpenAI_API
+<p align="center">
+  <img width="250" height="250" alt="image" src="https://github.com/user-attachments/assets/553c81a8-eed7-4d8e-b03b-d605821b3e66"/>
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/github/contributors/Peaceful-World-X/Template_OpenAI_API" alt="Contributors"/>
+  <img src="https://img.shields.io/github/forks/Peaceful-World-X/Template_OpenAI_API" alt="Forks"/>
+  <img src="https://img.shields.io/github/stars/Peaceful-World-X/Template_OpenAI_API" alt="Stars"/>
+  <img src="https://img.shields.io/github/issues/Peaceful-World-X/Template_OpenAI_API" alt="Issues"/>
+  <img src="https://img.shields.io/github/license/Peaceful-World-X/Template_OpenAI_API" alt="License"/>
+  <img src="https://img.shields.io/badge/LinkedIn-Profile-blue" alt="LinkedIn"/>
+  <img src="https://img.shields.io/github/downloads/Peaceful-World-X/Template_OpenAI_API/total" alt="Downloads"/>
+</p>
+
+<h1 align="center" style="font-size: 64px;">Template_OpenAI_API
+  <a href="https://github.com/Peaceful-World-X/Template_OpenAI_API/archive/refs/heads/main.zip" download>模板点击下载⚡</a>
+</h1>
+
+
 🫠一个类封装：通用的OpenAI兼容API接口, 支持非流式和流式调用, 支持单条指令、多轮对话, 支持文字、图像输入等自定义参数<br>
 ```python
 # 三行代码直接获取API结果
