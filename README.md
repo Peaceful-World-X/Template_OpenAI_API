@@ -11,8 +11,8 @@ ans = gpt_client.chat(use_command, sys_command, history_True)
 🔥免费API统计：<a href="#lable">免费API申请地址(每月/每天免费刷新额度)</a>
 
 ## 1、文件介绍
-- Template_OpenAI_API.py：定义了一个 AIClient 类，支持非流式、流式，单条命令、多轮对话等调用方式。
-- Test_OpenAI_API.py：最精简的API调用模板。
+- [Template_OpenAI_API.py](Template_OpenAI_API.py)：定义了一个 AIClient 类，支持非流式、流式，单条命令、多轮对话等调用方式。
+- [Test_OpenAI_API.py](Test_OpenAI_API.py)：最精简的API调用模板。
 
 ## 2、API_KEY 命令行保存方法
 - 方法一：txt文件
@@ -242,7 +242,7 @@ OpenAI API兼容接口：https://free.v36.cm/v1/<br>
     - thudm/glm-z1-32b:free
 5. GPT_API_free 项目：https://github.com/chatanywhere/GPT_API_free
    - OpenAI API兼容接口：https://api.chatanywhere.tech/v1
-   - 可用模型类型，输入Token小于4096（最新免费模型运行 Models_ChatAnyWhere.py 查看）
+   - 可用模型类型，输入Token小于4096（最新免费模型运行 [Models_ChatAnyWhere.py](Models_ChatAnyWhere.py) 查看）
    - deepseek-chat
    - deepseek-r1
    - deepseek-r1-250528
