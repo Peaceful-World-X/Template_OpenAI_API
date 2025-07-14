@@ -1,4 +1,4 @@
-# 列出 ChatAnywhere 免费的模型
+# 列出 ChatAnywhere 免费的模型并排序
 import requests
 
 API_KEY = open("API_Chatanywhere.txt", "r", encoding="utf-8").read().strip()
