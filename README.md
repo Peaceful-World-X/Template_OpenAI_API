@@ -151,6 +151,21 @@ for content in ans:
 
 <span id="lable"></span>
 ## 4、免费API申请地址(每月/每天免费刷新额度，截止2025.07.13统计)
+### 申请地址预览：
+1. 智谱AI-GLM 官网：https://www.bigmodel.cn/usercenter/proj-mgmt/apikeys<br>
+OpenAI API兼容接口：https://open.bigmodel.cn/api/paas/v4<br>
+2. 🔮Google Gemini 官网：https://aistudio.google.com/apikey<br>
+OpenAI API兼容接口：https://generativelanguage.googleapis.com/v1beta/openai/<br>
+3. Modelscope 魔塔社区：https://modelscope.cn/my/myaccesstoken<br>
+OpenAI API兼容接口：https://api-inference.modelscope.cn/v1/<br>
+4. OpenRouter 官网：https://openrouter.ai/settings/keys<br>
+OpenAI API兼容接口：https://openrouter.ai/api/v1<br>
+5. GPT_API_free 项目：https://github.com/chatanywhere/GPT_API_free<br>
+OpenAI API兼容接口：https://api.chatanywhere.tech/v1
+6. Free-ChatGPT-API 项目: https://github.com/popjane/free_chatgpt_api<br>
+OpenAI API兼容接口：https://free.v36.cm/v1/<br>
+
+### 详细模型类型：
 1. 智谱AI-GLM 官网：https://www.bigmodel.cn/usercenter/proj-mgmt/apikeys
    - OpenAI API兼容接口：https://open.bigmodel.cn/api/paas/v4
    - 可用模型类型（最新免费模型查看[智谱AI-GLM免费模型](https://www.bigmodel.cn/dev/activities/free/glm-z1-flash)）
@@ -171,7 +186,15 @@ for content in ans:
    - gemini-2.0-flash(图像识别、视频识别)
    - gemini-1.5-flash-8b(图像识别、视频识别)
    - gemini-1.5-flash(图像识别、视频识别)
-3. OpenRouter 官网：https://openrouter.ai/settings/keys
+3. Modelscope 魔塔社区：https://modelscope.cn/my/myaccesstoken
+   - OpenAI API兼容接口：https://api-inference.modelscope.cn/v1/
+   - 每日2000次调用，可用模型类型（最新免费模型查看[Modelscope 免费模型](https://www.modelscope.cn/models?filter=inference_type&page=1&tabKey=task)）
+   - Qwen/QwQ-32B
+   - Qwen/Qwen3-235B-A22B
+   - deepseek-ai/DeepSeek-R1-Distill-Qwen-7B
+   - LLM-Research/Meta-Llama-3.1-8B-Instruct
+   - 等等13283个模型
+4. OpenRouter 官网：https://openrouter.ai/settings/keys
    - OpenAI API兼容接口：https://openrouter.ai/api/v1
    - 可用模型类型（最新免费模型查看[OpenRouter免费模型](https://openrouter.ai/models?q=free&fmt=table)）
    - deepseek/deepseek-chat:free
@@ -217,7 +240,7 @@ for content in ans:
     - tencent/hunyuan-a13b-instruct:free
     - thudm/glm-4-32b:free
     - thudm/glm-z1-32b:free
-3. GPT_API_free 项目：https://github.com/chatanywhere/GPT_API_free
+5. GPT_API_free 项目：https://github.com/chatanywhere/GPT_API_free
    - OpenAI API兼容接口：https://api.chatanywhere.tech/v1
    - 可用模型类型，输入Token小于4096（最新免费模型运行 Models_ChatAnyWhere.py 查看）
    - deepseek-chat
@@ -243,7 +266,7 @@ for content in ans:
    - text-embedding-3-large
    - text-embedding-3-small
    - text-embedding-ada-002
-4. Free-ChatGPT-API 项目: https://github.com/popjane/free_chatgpt_api
+6. Free-ChatGPT-API 项目: https://github.com/popjane/free_chatgpt_api
    - OpenAI API兼容接口：https://free.v36.cm/v1/
    - 可用模型类型（最新免费模型查看[Free-ChatGPT-API免费模型](https://github.com/popjane/free_chatgpt_api?tab=readme-ov-file#%E9%A1%B9%E7%9B%AE%E4%BB%8B%E7%BB%8D)）
    - gpt-4o-mini
