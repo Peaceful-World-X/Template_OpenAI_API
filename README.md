@@ -152,18 +152,22 @@ for content in ans:
 <span id="lable"></span>
 ## 4、免费API申请地址(每月/每天免费刷新额度，截止2025.07.13统计)
 ### 申请地址预览：
-1. 智谱AI-GLM 官网：https://www.bigmodel.cn/usercenter/proj-mgmt/apikeys<br>
-OpenAI API兼容接口：https://open.bigmodel.cn/api/paas/v4<br>
-2. 🔮Google Gemini 官网：https://aistudio.google.com/apikey<br>
-OpenAI API兼容接口：https://generativelanguage.googleapis.com/v1beta/openai/<br>
-3. Modelscope 魔塔社区：https://modelscope.cn/my/myaccesstoken<br>
-OpenAI API兼容接口：https://api-inference.modelscope.cn/v1/<br>
-4. OpenRouter 官网：https://openrouter.ai/settings/keys<br>
-OpenAI API兼容接口：https://openrouter.ai/api/v1<br>
-5. GPT_API_free 项目：https://github.com/chatanywhere/GPT_API_free<br>
-OpenAI API兼容接口：https://api.chatanywhere.tech/v1
-6. Free-ChatGPT-API 项目: https://github.com/popjane/free_chatgpt_api<br>
-OpenAI API兼容接口：https://free.v36.cm/v1/<br>
+1. 智谱 GLM 官网：https://www.bigmodel.cn/usercenter/proj-mgmt/apikeys<br>
+OpenAI API接口：https://open.bigmodel.cn/api/paas/v4<br>
+2. 🔮Gemini 官网：https://aistudio.google.com/apikey<br>
+OpenAI API接口：https://generativelanguage.googleapis.com/v1beta/openai/<br>
+3. 🔮Github 官网：https://github.com/settings/personal-access-tokens/new<br>
+OpenAI API接口：https://models.inference.ai.azure.com
+4. Modelscope 魔塔社区：https://modelscope.cn/my/myaccesstoken<br>
+OpenAI API接口：https://api-inference.modelscope.cn/v1/<br>
+5. 硅基流动社区：https://cloud.siliconflow.cn/sft-0zitanxrpu/account/ak<br>
+ OpenAI API接口：https://api.siliconflow.cn/v1/
+6. OpenRouter 官网：https://openrouter.ai/settings/keys<br>
+OpenAI API接口：https://openrouter.ai/api/v1<br>
+7. GPT_API_free 项目：https://github.com/chatanywhere/GPT_API_free<br>
+OpenAI API接口：https://api.chatanywhere.tech/v1
+8. Free-ChatGPT-API 项目: https://github.com/popjane/free_chatgpt_api<br>
+OpenAI API接口：https://free.v36.cm/v1/<br>
 
 ### 详细模型类型：
 1. 智谱AI-GLM 官网：https://www.bigmodel.cn/usercenter/proj-mgmt/apikeys
@@ -186,7 +190,17 @@ OpenAI API兼容接口：https://free.v36.cm/v1/<br>
    - gemini-2.0-flash(图像识别、视频识别)
    - gemini-1.5-flash-8b(图像识别、视频识别)
    - gemini-1.5-flash(图像识别、视频识别)
-3. Modelscope 魔塔社区：https://modelscope.cn/my/myaccesstoken
+3. 🔮Github 官网：https://github.com/settings/personal-access-tokens/new
+   - OpenAI API兼容接口：https://models.inference.ai.azure.com
+   - 每日0.1美元调用，可用模型类型（最新免费模型查看[Github免费模型](https://github.com/marketplace/models)）
+   - OpenAI GPT-4.1
+   - OpenAI GPT-4o
+   - OpenAI GPT-4.1-nano
+   - DeepSeek-V3-0324
+   - Grok 3
+   - Llama 4 Scout 17B 16E Instruct
+   - 等等50个模型
+4. Modelscope 魔塔社区：https://modelscope.cn/my/myaccesstoken
    - OpenAI API兼容接口：https://api-inference.modelscope.cn/v1/
    - 每日2000次调用，可用模型类型（最新免费模型查看[Modelscope 免费模型](https://www.modelscope.cn/models?filter=inference_type&page=1&tabKey=task)）
    - Qwen/QwQ-32B
@@ -194,53 +208,41 @@ OpenAI API兼容接口：https://free.v36.cm/v1/<br>
    - deepseek-ai/DeepSeek-R1-Distill-Qwen-7B
    - LLM-Research/Meta-Llama-3.1-8B-Instruct
    - 等等13283个模型
-4. OpenRouter 官网：https://openrouter.ai/settings/keys
+5. 硅基流动社区：https://cloud.siliconflow.cn/sft-0zitanxrpu/account/ak
+   - OpenAI API兼容接口：https://api.siliconflow.cn/v1/
+   - 免费模型无限制，可用模型类型（最新免费模型查看[硅基流动 免费模型](https://cloud.siliconflow.cn/sft-0zitanxrpu/models)）
+   - THUDM/GLM-4.1V-9B-Thinking
+   - THUDM/GLM-Z1-9B-0414
+   - THUDM/GLM-4-9B-0414
+   - THUDM/glm-4-9b-chat
+   - Qwen/Qwen2.5-7B-Instruct
+   - Qwen/Qwen2.5-Coder-7B-Instruct
+   - Qwen/Qwen3-8B
+   - Qwen/Qwen2-7B-Instruct
+   - deepseek-ai/DeepSeek-R1-0528-Qwen3-8B
+   - deepseek-ai/DeepSeek-R1-Distill-Qwen-7B
+   - FunAudioLLM/SenseVoiceSmall
+   - BAAI/bge-m3
+   - BAAI/bge-reranker-v2-m3
+   - BAAI/bge-large-zh-v1.5
+   - BAAI/bge-large-en-v1.5
+   - netease-youdao/bce-embedding-base_v1
+   - netease-youdao/bce-reranker-base_v1
+   - Kwai-Kolors/Kolors
+   - internlm/internlm2_5-7b-chat
+6. OpenRouter 社区：https://openrouter.ai/settings/keys
    - OpenAI API兼容接口：https://openrouter.ai/api/v1
-   - 可用模型类型（最新免费模型查看[OpenRouter免费模型](https://openrouter.ai/models?q=free&fmt=table)）
-   - deepseek/deepseek-chat:free
+   - 每日50次调用，可用模型类型（最新免费模型查看[OpenRouter免费模型](https://openrouter.ai/models?q=free&fmt=table)）
     - deepseek/deepseek-r1:free
-    - deepseek/deepseek-r1-distill-llama-70b:free
-    - deepseek/deepseek-r1-distill-qwen-14b:free
     - deepseek/deepseek-v3-base:free
     - google/gemini-2.0-flash-exp:free
-    - google/gemma-2-9b-it:free
-    - google/gemma-3-12b-it:free
     - google/gemma-3-27b-it:free
-    - google/gemma-3-4b-it:free
-    - meta-llama/llama-3.1-405b-instruct:free
-    - meta-llama/llama-3.2-11b-vision-instruct:free
-    - meta-llama/llama-3.2-3b-instruct:free
-    - meta-llama/llama-3.3-70b-instruct:free
-    - meta-llama/llama-4-maverick:free
     - meta-llama/llama-4-scout:free
-    - microsoft/mai-ds-r1:free
-    - mistralai/devstral-small-2505:free
-    - mistralai/mistral-7b-instruct:free
-    - mistralai/mistral-nemo:free
-    - mistralai/mistral-small-24b-instruct-2501:free
-    - mistralai/mistral-small-3.1-24b-instruct:free
-    - mistralai/mistral-small-3.2-24b-instruct:free
-    - moonshotai/kimi-dev-72b:free
-    - moonshotai/kimi-vl-a3b-thinking:free
-    - nousresearch/deephermes-3-llama-3-8b-preview:free
-    - nvidia/llama-3.1-nemotron-ultra-253b-v1:free
-    - nvidia/llama-3.3-nemotron-super-49b-v1:free
-    - openrouter/cypher-alpha:free
-    - qwen/qwen-2.5-72b-instruct:free
-    - qwen/qwen-2.5-coder-32b-instruct:free
-    - qwen/qwen2.5-vl-32b-instruct:free
-    - qwen/qwen2.5-vl-72b-instruct:free
-    - qwen/qwen3-14b:free
     - qwen/qwen3-235b-a22b:free
-    - qwen/qwen3-30b-a3b:free
-    - qwen/qwen3-32b:free
-    - qwen/qwen3-4b:free
-    - qwen/qwen3-8b:free
-    - qwen/qwq-32b:free
-    - tencent/hunyuan-a13b-instruct:free
     - thudm/glm-4-32b:free
     - thudm/glm-z1-32b:free
-5. GPT_API_free 项目：https://github.com/chatanywhere/GPT_API_free
+    - 等等60个模型
+7. GPT_API_free 项目：https://github.com/chatanywhere/GPT_API_free
    - OpenAI API兼容接口：https://api.chatanywhere.tech/v1
    - 可用模型类型，输入Token小于4096（最新免费模型运行 [Models_ChatAnyWhere.py](Models_ChatAnyWhere.py) 查看）
    - deepseek-chat
@@ -266,7 +268,7 @@ OpenAI API兼容接口：https://free.v36.cm/v1/<br>
    - text-embedding-3-large
    - text-embedding-3-small
    - text-embedding-ada-002
-6. Free-ChatGPT-API 项目: https://github.com/popjane/free_chatgpt_api
+8. Free-ChatGPT-API 项目: https://github.com/popjane/free_chatgpt_api
    - OpenAI API兼容接口：https://free.v36.cm/v1/
    - 可用模型类型（最新免费模型查看[Free-ChatGPT-API免费模型](https://github.com/popjane/free_chatgpt_api?tab=readme-ov-file#%E9%A1%B9%E7%9B%AE%E4%BB%8B%E7%BB%8D)）
    - gpt-4o-mini
