@@ -247,9 +247,9 @@ if __name__ == '__main__':
     history.append({"role": "user", "content": "我是谁？"})
     history.append({"role": "assistant", "content": "你是李华。"})
     history.append({"role": "user", "content": "我从哪里来？"})
-    history.append({"role": "assistant", "content": "你来自中国。"})
+    history.append({"role": "assistant", "content": "你来自东土大唐。"})
     history.append({"role": "user", "content": "我到哪里去？"})
-    history.append({"role": "assistant", "content": "你将要去外国。"})
+    history.append({"role": "assistant", "content": "你将要去西天取经。"})
     use_command =  "我第2次问你的是什么问题？复述一遍。"
     ans = gpt_client.chat(use_command, sys_command, history_True, history)
     print(ans)
@@ -316,9 +316,9 @@ if __name__ == '__main__':
     history.append({"role": "user", "content": "我是谁？"})
     history.append({"role": "assistant", "content": "你是李华。"})
     history.append({"role": "user", "content": "我从哪里来？"})
-    history.append({"role": "assistant", "content": "你来自中国。"})
+    history.append({"role": "assistant", "content": "你来自东土大唐。"})
     history.append({"role": "user", "content": "我到哪里去？"})
-    history.append({"role": "assistant", "content": "你将要去外国。"})
+    history.append({"role": "assistant", "content": "你将要去西天取经。"})
     use_command =  "我第2次问你的是什么问题？复述一遍。"
     ans = gpt_client.chat(use_command, sys_command, history_True, history)
     for content in ans:
